@@ -8,12 +8,17 @@
 1. 把本文件夹放到任意位置
 2. VSCode / Trae：`扩展 → 从 VSIX 安装…`（先打包，见方式二）；或 `code --install-extension 打包好的.vsix`
 
-方式二：打包成 VSIX
+方式二：使用仓库内已打包好的 VSIX（推荐）
+1. 从 GitHub 仓库 `vscode-extension/genshen-skirk-skin-1.0.0.vsix` 下载 VSIX 文件
+2. VSCode / Trae：`扩展 → … 菜单 → 从 VSIX 安装`，选中该文件
+（也可以直接命令行：`code --install-extension genshen-skirk-skin-1.0.0.vsix`）
+
+方式三：重新打包 VSIX
 1. 已安装 Node.js / npm 的环境双击 `build.bat`（内部执行 `npm install -g @vscode/vsce` + `vsce package`）
 2. 生成 `genshen-skirk-skin-1.0.0.vsix`
-3. VSCode / Trae：`扩展 → … 菜单 → 从 VSIX 安装`，选中该文件
+3. 按方式二安装
 
-方式三：临时试用（不改系统）
+方式四：临时试用（不改系统）
 - 命令行进入本文件夹执行 `code --extensionDevelopmentPath="."`（Trae 同理）
 
 ## 使用
