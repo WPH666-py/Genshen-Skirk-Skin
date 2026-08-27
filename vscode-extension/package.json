@@ -9,6 +9,7 @@
   "categories": ["Other"],
   "keywords": ["genshin", "skirk", "原神", "丝柯克", "skin"],
   "license": "SEE LICENSE IN LICENSE.txt",
+  "repository": { "type": "git", "url": "https://github.com/WPH666-py/Genshen-Skirk-Skin" },
   "main": "./extension.js",
   "contributes": {
     "commands": [
