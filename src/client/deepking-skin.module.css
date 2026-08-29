@@ -1,0 +1,23 @@
+/* DeepKing skin palette (variables consumed by DeepKing skin converter) */
+:root {
+  --bg-base: #f2f8ff;
+  --text: #10233f;
+  --bg-layer-2: #e3eefe;
+  --bg-layer-3: #d3e4fb;
+  --border: #bfd6f2;
+  --interactive-bg-hover-solid: #d9e7fb;
+  --interactive-bg-active: #bfe0ff;
+  --label-secondary: #6a86ab;
+  --brand-primary: #5f8cff;
+}
+.dark {
+  --bg-base: #0a1322;
+  --text: #d6ecff;
+  --bg-layer-2: #070f1d;
+  --bg-layer-3: #12233c;
+  --border: #24405f;
+  --interactive-bg-hover-solid: #16283f;
+  --interactive-bg-active: #24476e;
+  --label-secondary: #8fa8c8;
+  --brand-primary: #9fd8ff;
+}
